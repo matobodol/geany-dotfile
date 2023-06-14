@@ -1,0 +1,10 @@
+[build-menu]
+FT_01_LB=
+FT_01_CM=
+FT_01_WD=
+EX_00_LB=Run
+EX_00_CM=rustc "%f" && "./%e" && [ -f "%e" ] && rm "%e"
+EX_00_WD=
+FT_00_LB=Compile
+FT_00_CM=rustc "%f"
+FT_00_WD=
